@@ -1,0 +1,354 @@
+/* ******************
+   header
+******************* */
+
+
+/* ******************
+   1024px
+******************* */
+@media(max-width:1024px){
+
+    /* cab */
+    .cab-right{
+        margin-top: -48px;
+        }
+    .cab-left p{
+        font-size: 20px;
+        /* margin-top: 29px; */
+        }
+    .cab-right h1 {
+        font-size: 35px;
+        }  
+    .cab-right h1 {
+        font-size: 20px !important;
+        }    
+    .cab-right {
+        margin-top: 230px;
+        width: 300px;
+        background-color: #ffffff;
+    }
+
+    /* testimonial */
+    .test-para {
+        margin-left: -129px;
+    }
+}
+/* ******************
+   912px
+******************* */
+@media(max-width:912px){
+
+    /* cab */
+    .cab-right{
+        margin-top: -48px;
+        width: 500px;
+        margin: auto;
+        }
+    .cab-right h1{
+        margin: auto;
+        font-size: 35px !important;
+        }
+    .cab-left p{
+        font-size: 20px;
+        } 
+
+    /* start card */
+    .card img {
+        margin-top: 55px;
+        margin: auto;
+        margin-left: 150px;
+    }
+    .col-lg-12{
+        margin-bottom: -58px;
+    }
+    .star-img {
+      
+        bottom: 0px;
+    }
+
+    /* content */
+    .main-content{
+        margin-bottom: 80px;
+    }
+
+    /* download-service */
+    .download-img {
+        margin-top: 81px;
+        margin-left: 220px;
+    }
+    .download-content {
+        margin-top: 110px;
+        margin-left: 140px;
+    }
+    /* testimonial */
+    .test-para {
+        margin-left: 9px;
+    }
+    
+     /* call-service */
+    .head-cll-service h1{
+        color: #000000;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 45px;
+      }
+      .head-cll-service h3{
+        color: #000000;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 22px;
+      }
+
+      /* contact-infomation */
+      .Copyright {
+        margin-bottom: 100px;
+    }
+
+
+
+/* ******************
+   768px
+******************* */
+@media(max-width:768px){
+    .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+        margin-top: 15px;
+        color: aqua;
+    }
+    .navbar-nav .nav-link{
+       color: aqua;
+       background: none;
+       font-size: 25px; 
+    }
+    .img-header{
+        margin-top: 50px;
+    }
+    .navbar-nav .nav-link:hover{
+        background-color: none;
+    }
+
+    /* cab */
+    .cab-right{
+      margin-top: -48px;
+      width: 284px;
+      margin: auto;
+      }
+
+    /* content */
+   .content-img {
+    position: absolute;
+    max-width: 40px;
+    margin-top: 28px;
+    margin-left: 3px;
+   }
+
+   /* call-service */
+   .head-cll-service h3 {
+    font-size: 18px;
+    }
+   .head-cll-service h1 {
+    font-size: 25px;
+    padding-bottom: 50px;
+    }
+}
+
+
+/* ******************
+   480px
+******************* */
+
+@media(max-width: 480px){
+    .header-info p{
+       font-size: 15px;
+       letter-spacing: 2px;
+    }
+    .header-info h1{
+       font-size: 30px; 
+    }
+    .header-info h3{
+      font-size: 20px;
+    }
+    .logo {
+        margin-top: 15px;
+    }
+
+   /* cab */
+     .cab-left{
+        margin: 23px;
+     }
+    .cab-left h4{
+        font-size: 20px;
+       }
+    .cab-left h2{
+        font-size: 30px;
+      }
+    .cab-left h3{
+        font-size: 30px;
+      }
+     .btn-1{
+        margin-top: 10px;
+      }
+      .cab-right{
+        margin-top: 13px;
+        margin: auto;
+     }
+     /* start card */
+     .card img {
+        margin-left: 46px;
+    }
+    .star-img {
+        right: -1px;
+   
+    }
+
+    /* content */
+    .content-left {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .content-right {
+        margin-top: 50px;
+        margin-bottom: 57px;
+    }
+
+    /* download-service */
+    .download-icon2 {
+        position: relative;
+        margin-left: 138px;
+        margin-top: 70px;
+        width: 100px;
+    }
+    .download-icon1 {
+        position: absolute;
+        margin-top: 59px;
+        width: 100px;
+    }
+    .download-img {
+        margin-top: 81px;
+        margin-left: 150px;
+    }
+    .download-content {
+        margin-top: 110px;
+        margin-left: 75px;
+    }
+
+    /* testimonial */
+    .testimonial-right {
+        margin-top: -67px;
+    }
+    .testimonial-left {
+        margin-top: 27px;
+    }
+
+     /* call-service */
+   .head-cll-service h3 {
+    font-size: 14px;
+    }
+   .head-cll-service h1 {
+    font-size: 20px;
+    padding-bottom: 50px;
+    }
+
+    /* contact-infomation */
+    .contact-head {
+        padding-top: 50px;
+        padding-bottom: 1px;
+    }
+    .contact-head {
+        padding-top: 50px;
+        margin-bottom: 1px;
+    }
+}
+/* ******************
+   393px
+******************* */
+@media(max-width: 393px){
+    .card img {
+        margin-left: 0px;
+    }
+    .download-icon2 {
+        margin-left: 138px;
+    }
+}
+
+
+
+/* ******************
+   320px
+******************* */
+
+@media(max-width: 320px){
+    .img-header{
+        margin-top: 10px;
+    }
+    .header-info p{
+        font-size: 10px;
+      }
+   .logo {
+        margin-top: 15px;
+    }
+    
+    /* cab */
+    .cab-right{
+        width: 200px;
+    }
+    .book-cab {
+        background-color: #1b1b1b;
+        color: #ffffff;
+        padding: 5px 35px;
+        margin: 0;
+        font-size: 24px;
+    }
+    .card img {
+        margin-left: -5px;
+    }
+    
+    /* start card */
+    .star-img {
+        bottom: -2px;
+        right: -5px;
+    }
+
+    /* content */
+    .content-text h3 {
+        color: #ffc61a;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+
+    /* download-service */
+    .download-icon2 {
+        position: relative;
+        margin-left: 136px;
+        margin-top: 70px;
+        width: 100px;
+    }
+    .download-icon1 {
+        position: absolute;
+        margin-top: 62px;
+        width: 100px;
+        margin-left: 11px;
+    }
+    .download-img {
+        margin-top: 81px;
+        margin-left: 106px;
+    }
+    .download-content {
+        margin-top: 110px;
+        margin-left: 20px;
+    }
+    /* testimonial */
+    .testimonial-right {
+        margin-bottom: 81px;
+    }
+
+     /* call-service */
+   .head-cll-service h3 {
+    font-size: 11px;
+    }
+   .head-cll-service h1 {
+    font-size: 16px;
+    padding-bottom: 50px;
+    }
+
+}
+

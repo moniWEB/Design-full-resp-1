@@ -1,0 +1,269 @@
+/* *******************************
+common css
+**********************************/
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Castoro+Titling&family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap'); */
+
+
+
+/* .container{
+    margin: 0 auto;
+    max-width: 960px;
+    width: 96%;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}  */
+
+
+
+/*****************
+   topheader-area
+ *****************/
+
+ body{
+  color: 54524f;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+} 
+
+ .header-area{
+    width: 100%;
+    clear: both;
+ }
+ #topheader-area{
+    background: #ff6666;
+    width: 100%;
+    padding: 21px 0;
+ }
+ .container{
+    overflow: hidden;
+ }
+ .minimanu{
+    float: left;
+    width: 70%;
+ }
+ .minimanu ul{
+   padding: 0;
+   margin: 0;
+   margin-left: 15px;
+   list-style: none;
+   text-align: left;
+ }
+ .minimanu ul li{
+ display: inline-block;
+ margin-right: 20px;
+ position: relative;
+ padding-top: 5px;
+ }
+ .minimanu ul li::after{
+ background-color: white;
+ content: "";
+ width: 2px;
+ height: 12px;
+ top: 12px;
+ right: -12px;
+ position: absolute;
+ }
+ .minimanu ul li:last-child:after{
+display: none;
+ }
+
+ .minimanu ul li a{
+ display: block;
+ text-decoration: none;
+ color: aliceblue;
+ font-size: 20px;
+ }
+ .minimanu ul li a:hover{
+    color: blue;
+ }
+
+ .search-area{
+    float: right;
+    width: 30%;
+    border: none;
+ }
+
+ .search-area form input{
+  border: 0px solid;
+  padding: 1%;
+  color: black;
+  padding: 10px 25px;
+  border-radius: 15px;
+  float: right;
+  margin-right: 10px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+ }
+
+ .search-area form input::after{
+  position: absolute;
+  background-image: url(../img/search.png);
+  background-color: #1401e8;
+  top: 5px;
+  left: 0px;
+  right: 0;
+  z-index: -1;
+  content: "";
+  width: 30px;
+ 
+ }
+
+
+
+/*****************
+   main header area
+ *****************/
+ #main-header-area{
+    width: 99%;
+    margin: auto;
+ }
+ .inner-header{
+   overflow: hidden;
+   margin-top: 20px;
+ }
+ .logo-area{
+   float: left;
+   width: 40px;
+ }
+ .social-area{
+   float: right;
+   max-width: 500px;
+   width: 100%;
+   margin-right: 20px;
+   
+ }
+ .social-area ul{
+  padding: 0;
+  margin: 0;
+  text-align: right;
+
+ }
+ .social-area ul li{
+   display: inline-block;
+  
+ }
+ .social-area ul li a{
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+ }
+ .social-area ul li a i{
+   background: black;
+   border-radius: 50%;
+   display: block;
+   padding: 7px;
+   text-align: center;
+   display: block;
+   color: aliceblue;
+   transition: 0.1s;
+ }
+ .social-area ul li a i:hover{
+   background: #ff6666;
+ }
+ .social-area ul li a:hover i.fa-linkedin-in{
+   background: #34d200;
+ }
+ .social-area ul li a:hover i.fa-facebook{
+   background: #1401e8;
+ }
+ .social-area ul li a:hover i.fa-instagram{
+   background: #e70303;
+ }
+ .social-area ul li a:hover i.fa-twitter{
+   background: #0083ab;
+ }
+
+ /*****************
+   mainmanu
+ *****************/
+
+
+ #mainmanu{
+   width: 99%;
+   margin: auto;
+   border-radius: 5px;
+ }
+ .nav ul{
+    text-align: center; 
+    background-color: #036887;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .nav ul li{
+    font-size: 18px;
+    margin: 10px 30px;
+    display: inline-block;
+    position: relative;
+ }
+ .nav ul li a{
+ text-decoration: none;
+ text-transform: uppercase;
+ color: rgb(255, 255, 255);
+ }
+
+ .nav ul li  i{
+  font-size: 15px;
+  margin-left: 7px;
+  color: white;
+ }
+ 
+ .active, .nav ul li :hover{
+     color: rgb(0, 0, 0);
+     border-radius: 3px;
+     background-color: rgb(255, 255, 255);
+     padding: 5px;
+ }
+.sub-manu{
+  display: none;
+}
+.nav ul li:hover .sub-manu{
+  display: block;
+  position: absolute;
+ 
+  top: 30px;
+  left: -70px;
+}
+.nav ul li:hover .sub-manu ul{
+  display: block;
+  margin-top: 10px;
+}
+.nav ul li:hover .sub-manu ul li{
+     width: 110px;
+     padding: 10px;
+     border-bottom: 1px dotted red;
+     border-radius: 0px;
+     /* text-align: left; */
+}
+.nav ul li:hover .sub-manu ul li a:hover{
+   color: #000bdb;
+     /* text-align: left; */
+}
+.nav ul li:hover .sub-manu ul li:last-child{
+  border: none;
+}
+.nav ul li .fa-chevron-right{
+  color: #1401e8;
+  float: right;
+}
+
+ /*****************
+   slide area 
+ *****************/
+
+
+
+
+
+
+
+
+
+
+
+

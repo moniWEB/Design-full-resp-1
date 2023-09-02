@@ -1,0 +1,170 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-link{
+  text-transform: uppercase;
+  font-size: 15px;
+
+}
+.header{
+
+  background-color: aqua;
+}
+
+.search i{
+    padding: 5px;
+    padding-left: 70px;
+    padding-right: 5px;
+    border-radius: 15px;
+    margin-left: 0px;
+    border: 1px dotted black;
+    background-color: rgb(175, 175, 175);
+}
+
+/* mid */
+
+
+.mid{
+    background-image: url(../img/main.png);
+   
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    
+}
+.man{
+    margin-top: 300px;
+    margin-left: 0px;
+}
+.man h1{
+    margin-top: 70px;
+    font-size: 40px;
+    color: rgb(242, 156, 52);
+    text-shadow: 2px 2px 2px 2px black;
+    font-family: 'Libre Franklin', sans-serif;
+  
+}
+.man h3{
+    margin-top: 30px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.man .btn{
+    padding: 2px 10px 2px 10px;
+    background-color: none;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: rgb(154, 156, 157);
+}
+.man .btn:hover{
+     background-color: black;
+     color: aliceblue;
+     box-shadow: 0px 2px 1px 1px blue;
+}
+.man p{
+    font-size: 13px;
+    text-align: justify;
+}
+.ipsum{
+    margin-left: 30px;
+}
+
+/* lead go--- */
+.threeimg{
+    position: relative;
+}
+.threeimg::before{
+ content: "";
+ background-image: url(../img/black.png);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ opacity: 10%;
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;;
+
+     
+ }
+.lead1 h1{
+    color: rgb(242, 156, 52);
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.lead1 p{
+    color: rgb(158, 155, 155);
+}
+.lead2{
+    text-align: center;
+    padding: 5px;
+}
+.lead3{
+    text-align: center;
+    padding: 5px;
+}
+
+.onetow{
+    background-color: rgb(159, 159, 159);
+    padding-bottom: 20px;
+}
+.lead4 h2{
+    margin-left: 5px;
+    font-size: 25px;
+    color: aliceblue;
+}
+.lead4 p{
+  color: white;
+
+}
+.onetow img{
+    width: 500px;
+    margin: auto;
+    height: 300px;
+}
+.onetow h2{
+   margin-left: 20px;
+}
+.onetow p{
+   margin-left: 20px;
+}
+.see{
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 15px;
+  background-color: rgb(159, 159, 159);
+  color: aliceblue;
+  font-size: 22px;
+}
+
+/* left1  */
+.topbar{
+    margin-top: 100px;
+    
+}
+.mon{
+    background-color: rgb(145, 115, 115);
+}
+.left1 img{
+   
+}
+.right1{
+    
+    margin-top: 100px;
+}
+.more{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    padding: 5px 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(242, 156, 52);
+}
